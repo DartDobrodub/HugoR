@@ -17,7 +17,7 @@ public class GameScreen implements Screen {
     public void show() {
         batch = new SpriteBatch();
         hugoTexture = new Texture(Gdx.files.internal("logo.png"));
-        hugo = new Hugo(hugoTexture, 0, 0, 168, 210);
+        hugo = new Hugo(hugoTexture, 60, 0, 168, 210);
     }
 
     @Override
